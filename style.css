@@ -22,16 +22,21 @@ body{
 .section-two,.section-three,.section-four,.section-five{
     margin-top:20px;
     display:inline-block;
-    width: 200px;
+    width: 220px;
     height: 440px;
     border:solid black 2px;
     text-align: center;
     vertical-align: top;
+    
 
 
 }
 .container2{
-    text-align: center;
+  
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    flex-wrap: wrap;
     
 }
 
@@ -84,6 +89,7 @@ body{
     font-weight: bold;
     color: black;
     border: solid black 2px;
+    
 }
 
 
